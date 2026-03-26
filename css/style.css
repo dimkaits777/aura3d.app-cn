@@ -1001,3 +1001,325 @@ footer {
   .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
   .legal-content { padding: 1.5rem; }
 }
+
+/* ============================================================
+   AUTO-BLOG SYSTEM — Article Container & News/Post Cards
+   Added for n8n GitOps pipeline
+   ============================================================ */
+
+/* ── Article Reading Container (LLM-generated pages) ─────── */
+.article-container {
+  background: #f8fafc;
+  color: #1e293b;
+  border-radius: 16px;
+  padding: 48px 56px;
+  margin: 2.5rem auto;
+  max-width: 860px;
+  box-shadow: 0 4px 40px rgba(10,18,50,0.22), 0 1px 0 rgba(255,255,255,0.08);
+  line-height: 1.85;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  border: 1px solid rgba(59,130,246,0.1);
+}
+
+/* — Headings inside article — */
+.article-container h1 {
+  font-family: var(--font-head);
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 900;
+  color: #0f172a;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  border-bottom: 3px solid var(--gold);
+  padding-bottom: 0.75rem;
+}
+.article-container h2 {
+  font-family: var(--font-head);
+  font-size: clamp(1.3rem, 2.5vw, 1.75rem);
+  font-weight: 700;
+  color: #1e2a5e;
+  margin: 2.25rem 0 0.85rem;
+  position: relative;
+  padding-left: 1rem;
+}
+.article-container h2::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0.2em; bottom: 0.2em;
+  width: 4px;
+  background: linear-gradient(180deg, var(--blue), var(--blue-dark));
+  border-radius: 4px;
+}
+.article-container h3 {
+  font-family: var(--font-head);
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  font-weight: 700;
+  color: #334155;
+  margin: 1.75rem 0 0.6rem;
+}
+
+/* — Body text — */
+.article-container p {
+  color: #374151;
+  margin-bottom: 1.25rem;
+  font-size: 1.02rem;
+  line-height: 1.85;
+}
+.article-container strong {
+  color: #0f172a;
+  font-weight: 700;
+}
+.article-container em {
+  color: #475569;
+  font-style: italic;
+}
+
+/* — Lists — */
+.article-container ul,
+.article-container ol {
+  padding-left: 1.75rem;
+  margin-bottom: 1.25rem;
+  color: #374151;
+}
+.article-container ul { list-style: disc; }
+.article-container ol { list-style: decimal; }
+.article-container li {
+  margin-bottom: 0.5rem;
+  line-height: 1.75;
+}
+.article-container li::marker { color: var(--blue-dark); font-weight: 700; }
+
+/* — Links — */
+.article-container a {
+  color: var(--blue-dark);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+.article-container a:hover { color: var(--blue); }
+
+/* — Cover image — */
+.article-container .article-cover {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  display: block;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+}
+
+/* — Metadata row — */
+.article-meta {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 0.88rem;
+  color: #64748b;
+  flex-wrap: wrap;
+}
+.article-meta time { font-weight: 600; color: var(--indigo); }
+.article-meta .article-tag {
+  background: rgba(59,130,246,0.1);
+  color: var(--blue-dark);
+  padding: 0.2rem 0.75rem;
+  border-radius: 50px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+/* — Affiliate disclosure — */
+.article-disclosure {
+  margin-top: 2.5rem;
+  padding: 1rem 1.25rem;
+  background: #fef9ec;
+  border-left: 4px solid var(--gold);
+  border-radius: 0 8px 8px 0;
+  font-size: 0.85rem;
+  color: #78716c;
+  line-height: 1.6;
+}
+
+/* — Source link — */
+.article-source {
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #e2e8f0;
+  font-size: 0.9rem;
+  color: #64748b;
+}
+.article-source a {
+  color: var(--blue-dark);
+  font-weight: 600;
+}
+
+/* — Breadcrumb inside article pages — */
+.breadcrumb {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+.breadcrumb a { color: var(--gold); font-weight: 500; text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; }
+.breadcrumb li { display: inline-flex; align-items: center; gap: 0.4rem; }
+.breadcrumb li::after { content: '›'; color: rgba(255,255,255,0.3); }
+.breadcrumb li:last-child::after { display: none; }
+
+/* ── News Grid & Cards ────────────────────────────────────── */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.news-card {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  color: inherit;
+}
+.news-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(245,158,11,0.45);
+  box-shadow: 0 10px 36px rgba(245,158,11,0.12);
+}
+.news-card-img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  display: block;
+  background: linear-gradient(135deg, rgba(30,42,94,0.8), rgba(15,23,60,0.9));
+}
+.news-card-img-placeholder {
+  height: 190px;
+  background: linear-gradient(135deg, rgba(30,42,94,0.6) 0%, rgba(59,130,246,0.15) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: rgba(255,255,255,0.2);
+}
+.news-card-body {
+  padding: 1.35rem 1.5rem 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.news-card-meta {
+  font-size: 0.78rem;
+  color: var(--gold);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 0.6rem;
+}
+.news-card h3 {
+  font-family: var(--font-head);
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 0.7rem;
+}
+.news-card p {
+  color: rgba(255,255,255,0.65);
+  font-size: 0.88rem;
+  line-height: 1.65;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.news-card-cta {
+  margin-top: 1rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--gold);
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: gap 0.2s ease;
+}
+.news-card:hover .news-card-cta { gap: 0.6rem; }
+
+/* ── Skeleton Loaders ────────────────────────────────────── */
+@keyframes shimmer {
+  0%   { background-position: -600px 0; }
+  100% { background-position: 600px 0; }
+}
+.card--skeleton {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  pointer-events: none;
+}
+.skeleton-img {
+  height: 190px;
+  background: linear-gradient(90deg,
+    rgba(255,255,255,0.04) 0%,
+    rgba(255,255,255,0.09) 50%,
+    rgba(255,255,255,0.04) 100%
+  );
+  background-size: 600px 100%;
+  animation: shimmer 1.6s infinite linear;
+}
+.skeleton-body { padding: 1.35rem 1.5rem 1.5rem; }
+.skeleton-line {
+  height: 12px;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+  background: linear-gradient(90deg,
+    rgba(255,255,255,0.06) 0%,
+    rgba(255,255,255,0.11) 50%,
+    rgba(255,255,255,0.06) 100%
+  );
+  background-size: 600px 100%;
+  animation: shimmer 1.6s infinite linear;
+}
+.skeleton-line.w-75 { width: 75%; }
+.skeleton-line.w-50 { width: 50%; }
+.skeleton-line.w-90 { width: 90%; }
+.skeleton-line.h-20 { height: 20px; margin-bottom: 1rem; }
+
+/* ── Grid Empty State ────────────────────────────────────── */
+.grid-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 4rem 2rem;
+  color: rgba(255,255,255,0.4);
+  font-size: 0.95rem;
+  background: rgba(255,255,255,0.03);
+  border: 1px dashed rgba(255,255,255,0.1);
+  border-radius: var(--radius-lg);
+}
+.grid-empty .empty-icon { font-size: 2.5rem; margin-bottom: 0.75rem; display: block; }
+
+/* ── Responsive adjustments ──────────────────────────────── */
+@media (max-width: 768px) {
+  .article-container {
+    padding: 28px 22px;
+    border-radius: 10px;
+    margin: 1.5rem auto;
+  }
+  .article-container h2 { font-size: 1.25rem; }
+  .news-grid { grid-template-columns: 1fr; }
+  .article-container .article-cover { height: 220px; }
+}
+@media (max-width: 480px) {
+  .article-container { padding: 20px 16px; }
+  .article-meta { gap: 0.75rem; }
+}
