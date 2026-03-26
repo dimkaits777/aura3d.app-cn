@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Printing Designs for Mother's Day | Download STL Files | AuraCrafts</title>
+  <meta name="description" content="Browse 3,000+ 3D printing STL files. Download instantly with commercial license — figurines, jewelry, cookie cutters, toys and more.">
+  <meta name="keywords" content="STL files, 3D printing designs, download STL, 3D printable files, commercial license">
+  <meta name="awin-verification" content="YOUR_AWIN_ID">
+  <link rel="canonical" href="https://aura3d.app-cn.net/shop.html">
+  <meta property="og:title" content="3D Printing Designs — Browse & Download STL Files">
+  <meta property="og:description" content="3,000+ printable designs with commercial license. Download instantly.">
+  <meta property="og:type" content="website">
+  <!-- Google Analytics placeholder -->
+  <!-- Insert Google Analytics Tag ID here -->
+  <!-- Pinterest Tag placeholder -->
+  <!-- Insert Pinterest Tag ID here -->
+  <link rel="icon" href="images/logo.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-bg" style="background-image:url('images/bg-main.jpg')">
+
+<!-- ── Navbar ─────────────────────────────────────────── -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <a href="index.html" class="nav-brand">
+    <img src="images/logo.jpg" alt="AuraCrafts logo">
+    <span>AuraCrafts</span>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="shop.html" class="active">Designs</a></li>
+    <li><a href="printers.html">Printers</a></li>
+    <li><a href="jlcpcb.html">JLCPCB</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="nav-actions">
+    <button class="nav-icon-btn" id="searchBtn" aria-label="Open search">🔍</button>
+    <button class="nav-icon-btn" id="wishlistBtn" aria-label="Open wishlist">
+      ❤️ <span class="badge wishlist-badge">0</span>
+    </button>
+    <button class="burger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ── Page Header ────────────────────────────────────── -->
+<div class="page-header">
+  <div class="breadcrumb"><a href="index.html">Home</a> <span>›</span> <span>Designs</span></div>
+  <h1>3D Printing Designs</h1>
+  <p>3,000+ STL files ready to print — all with commercial license included ✓</p>
+
+  <!-- Creative Fabrica Banner -->
+  <a href="https://www.creativefabrica.com/3d-printing/ref/20531415/" target="_blank" rel="sponsored"
+     style="display:inline-block;margin-top:1.5rem;padding:0.75rem 2rem;background:linear-gradient(135deg,#F59E0B,#D97706);color:#fff;border-radius:50px;font-weight:700;font-size:0.9rem;letter-spacing:0.05em;">
+    🎨 Browse All Designs on Creative Fabrica ↗
+  </a>
+</div>
+
+<!-- ── Shop Section ───────────────────────────────────── -->
+<main>
+  <section class="section" style="padding-top:2rem;">
+    <div class="container">
+
+      <!-- Filters -->
+      <div class="filters-bar">
+        <input type="search" id="searchFilter" class="filter-input" placeholder="🔍 Search designs…" autocomplete="off">
+        <select id="categoryFilter" class="filter-select" aria-label="Filter by category">
+          <option value="">All Categories</option>
+          <!-- populated by JS -->
+        </select>
+        <button id="clearFilters" class="btn btn-outline" style="padding:0.55rem 1.25rem;font-size:0.82rem;">✕ Clear</button>
+      </div>
+
+      <!-- Products Grid -->
+      <div id="productsGrid" class="products-grid">
+        <p class="loading">⏳ Loading designs…</p>
+      </div>
+
+      <!-- Pagination -->
+      <div id="pagination" class="pagination"></div>
+
+    </div>
+  </section>
+</main>
+
+<!-- ── Footer ─────────────────────────────────────────── -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="images/logo.jpg" alt="AuraCrafts">
+          <span class="footer-brand-name">AuraCrafts</span>
+        </div>
+        <p class="footer-desc">Your one-stop hub for 3D printing designs, equipment, and custom manufacturing services.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <a href="shop.html">3D Designs</a>
+        <a href="printers.html">3D Printers</a>
+        <a href="jlcpcb.html">Custom Parts</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="about.html">About Us</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+        <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 AuraCrafts. All rights reserved.</p>
+    </div>
+    <p class="footer-disclosure">
+      <strong>Affiliate Disclosure:</strong> Product links on this page are affiliate links to Creative Fabrica.
+      We earn a commission at no extra cost to you. <a href="affiliate-disclosure.html">Read more</a>
+    </p>
+  </div>
+</footer>
+
+<!-- Wishlist Sidebar -->
+<aside class="wishlist-sidebar" id="wishlistSidebar" aria-label="Wishlist">
+  <div class="wishlist-sidebar-header">
+    <h3>❤️ My Wishlist</h3>
+    <button class="wishlist-close" id="wishlistClose" aria-label="Close wishlist">✕</button>
+  </div>
+  <div class="wishlist-items" id="wishlistItems"></div>
+</aside>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<!-- Search Modal -->
+<div class="search-modal" id="searchModal" role="dialog" aria-label="Search">
+  <button class="search-modal-close" id="searchClose" aria-label="Close search">✕</button>
+  <div class="search-modal-inner">
+    <input type="search" id="searchInput" class="search-modal-input" placeholder="Search designs…" autocomplete="off">
+    <div id="searchResults" class="search-results"></div>
+  </div>
+</div>
+
+<script src="js/products.js"></script>
+<script src="js/shared.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
