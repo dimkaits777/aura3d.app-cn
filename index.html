@@ -16,17 +16,9 @@
   <meta property="og:url" content="https://aura3d.app-cn.net/">
   <meta property="og:image" content="images/logo.jpg">
 
-  <!-- Google Analytics placeholder -->
-  <!-- Insert Google Analytics Tag ID here -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script> -->
-
-  <!-- Pinterest Tag placeholder -->
-  <!-- Insert Pinterest Tag ID here -->
-
   <link rel="icon" href="images/logo.jpg" type="image/jpeg">
   <link rel="stylesheet" href="css/style.css">
 
-  <!-- Schema.org for Organization -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -50,17 +42,16 @@
     <img src="images/logo.jpg" alt="AuraCrafts logo">
     <span>AuraCrafts</span>
   </a>
-
   <ul class="nav-links" id="navLinks" role="list">
     <li><a href="index.html" class="active">Home</a></li>
     <li><a href="shop.html">Designs</a></li>
     <li><a href="printers.html">Printers</a></li>
     <li><a href="jlcpcb.html">JLCPCB</a></li>
     <li><a href="blog.html">Blog</a></li>
+    <li><a href="news.html">News</a></li>
     <li><a href="about.html">About</a></li>
     <li><a href="contact.html">Contact</a></li>
   </ul>
-
   <div class="nav-actions">
     <button class="nav-icon-btn" id="searchBtn" aria-label="Open search">🔍</button>
     <button class="nav-icon-btn" id="wishlistBtn" aria-label="Open wishlist">
@@ -75,15 +66,11 @@
 
 <!-- ── Hero / Video Banner ────────────────────────────── -->
 <section class="hero" aria-label="Hero banner">
-  <!-- Video banner -->
-  <!-- Video banner — autoplay muted loop playsinline обязательны для всех браузеров -->
   <video id="heroBgVideo" class="hero-video" autoplay muted loop playsinline disablepictureinpicture preload="auto" poster="images/bg-home.jpg" aria-hidden="true">
     <source src="banner-3d1.mp4" type="video/mp4">
   </video>
-  <!-- Fallback: показывается пока/если видео не загрузилось -->
   <div class="hero-bg-img" id="heroBgFallback" aria-hidden="true"></div>
   <div class="hero-overlay" aria-hidden="true"></div>
-
   <div class="hero-content">
     <div class="hero-badge">✨ 3,000+ Premium Designs</div>
     <h1 class="hero-title">
@@ -104,22 +91,10 @@
 <div class="stats-bar">
   <div class="container">
     <div class="stats-grid">
-      <div class="stat-item">
-        <span class="stat-num">3,000+</span>
-        <span class="stat-label">Designs Available</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-num">50K+</span>
-        <span class="stat-label">Happy Makers</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-num">100%</span>
-        <span class="stat-label">Commercial License</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-num">24/7</span>
-        <span class="stat-label">Download Access</span>
-      </div>
+      <div class="stat-item"><span class="stat-num">3,000+</span><span class="stat-label">Designs Available</span></div>
+      <div class="stat-item"><span class="stat-num">50K+</span><span class="stat-label">Happy Makers</span></div>
+      <div class="stat-item"><span class="stat-num">100%</span><span class="stat-label">Commercial License</span></div>
+      <div class="stat-item"><span class="stat-num">24/7</span><span class="stat-label">Download Access</span></div>
     </div>
   </div>
 </div>
@@ -129,7 +104,6 @@
   <div class="container">
     <h2 class="section-title">Everything for Your 3D Printing Journey</h2>
     <p class="section-subtitle">From digital designs to physical objects — we've got you covered</p>
-
     <div class="services-grid">
       <a href="shop.html" class="service-card">
         <div class="service-icon">🎨</div>
@@ -155,30 +129,26 @@
   </div>
 </section>
 
-<!-- ── Featured Designs Preview ──────────────────────── -->
+<!-- ── Featured Designs ───────────────────────────────── -->
 <section class="section" style="background:rgba(10,18,50,0.98);">
   <div class="container">
     <h2 class="section-title">Featured Designs</h2>
     <p class="section-subtitle">Handpicked 3D printable files — download instantly with commercial license</p>
-
     <div id="featuredGrid" class="products-grid" style="margin-bottom:2rem">
-      <!-- Populated by JS -->
       <p class="loading">Loading featured designs…</p>
     </div>
-
     <div style="text-align:center;margin-top:2rem">
       <a href="shop.html" class="btn btn-blue">View All 3,000+ Designs →</a>
     </div>
   </div>
 </section>
 
-<!-- ── Latest Blog Posts ──────────────────────────────── -->
+<!-- ── Latest from the Blog ───────────────────────────── -->
 <section class="section" style="background:linear-gradient(180deg,rgba(10,18,50,0.98),rgba(15,23,60,0.97));">
   <div class="container">
     <h2 class="section-title">Latest from the Blog</h2>
     <p class="section-subtitle">Tips, tutorials, and inspiration for makers</p>
-
-    <!-- n8n will inject posts via JS; static fallback below -->
+    <!-- JS renders from _posts/posts.json; static cards are fallback until first publish -->
     <div id="latestPostsGrid" class="blog-grid">
       <a href="blog.html" class="blog-card">
         <div class="blog-card-img" style="background-image:url('images/bg-4.jpg')"></div>
@@ -194,7 +164,7 @@
         <div class="blog-card-body">
           <div class="blog-meta">STL Files · February 2026</div>
           <h3>Top 10 Mother's Day 3D Print Ideas</h3>
-          <p>Create heartfelt gifts — from personalized jewelry holders to decorative vases. All designs available for instant download.</p>
+          <p>Create heartfelt gifts — from personalized jewelry holders to decorative vases.</p>
           <div class="blog-read-more">Read more →</div>
         </div>
       </a>
@@ -208,9 +178,23 @@
         </div>
       </a>
     </div>
-
     <div style="text-align:center;margin-top:2.5rem">
       <a href="blog.html" class="btn btn-outline">View All Articles →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Latest News (n8n auto-generated) ──────────────── -->
+<section class="section" style="background:rgba(10,18,50,0.98);">
+  <div class="container">
+    <h2 class="section-title">Latest 3D Printing News</h2>
+    <p class="section-subtitle">Auto-updated every 12 hours from the world's top 3D printing sources</p>
+    <!-- data-limit="3" — JS reads this to show 3 cards on homepage -->
+    <div id="newsGrid" class="news-grid" data-limit="3">
+      <!-- Skeleton cards injected by script.js -->
+    </div>
+    <div style="text-align:center;margin-top:2.5rem">
+      <a href="news.html" class="btn btn-outline">All News →</a>
     </div>
   </div>
 </section>
@@ -220,17 +204,13 @@
   <div class="container">
     <h2 class="section-title">What Makers Are Saying</h2>
     <p class="section-subtitle">Thousands of makers trust AuraCrafts for their projects</p>
-
     <div class="testimonials-grid">
       <div class="testimonial">
         <div class="testimonial-stars">★★★★★</div>
         <p>"AuraCrafts has the best collection of STL files I've found anywhere. The commercial license means I can sell my prints at craft fairs without any worries. Absolute game changer!"</p>
         <div class="testimonial-author">
           <div class="author-avatar">S</div>
-          <div>
-            <div class="author-name">Sarah M.</div>
-            <div class="author-loc">Texas, USA</div>
-          </div>
+          <div><div class="author-name">Sarah M.</div><div class="author-loc">Texas, USA</div></div>
         </div>
       </div>
       <div class="testimonial">
@@ -238,21 +218,15 @@
         <p>"I bought a printer through the recommendations here and couldn't be happier. The setup guides and filament tips saved me so much time. Highly recommend to any beginner!"</p>
         <div class="testimonial-author">
           <div class="author-avatar">J</div>
-          <div>
-            <div class="author-name">James K.</div>
-            <div class="author-loc">California, USA</div>
-          </div>
+          <div><div class="author-name">James K.</div><div class="author-loc">California, USA</div></div>
         </div>
       </div>
       <div class="testimonial">
         <div class="testimonial-stars">★★★★★</div>
-        <p>"Used the JLCPCB service for my PCB prototype and it came out perfect. The pricing was amazing and delivery was faster than expected. Will definitely use again for future projects."</p>
+        <p>"Used the JLCPCB service for my PCB prototype and it came out perfect. The pricing was amazing and delivery was faster than expected. Will definitely use again!"</p>
         <div class="testimonial-author">
           <div class="author-avatar">R</div>
-          <div>
-            <div class="author-name">Rachel T.</div>
-            <div class="author-loc">New York, USA</div>
-          </div>
+          <div><div class="author-name">Rachel T.</div><div class="author-loc">New York, USA</div></div>
         </div>
       </div>
     </div>
@@ -303,8 +277,8 @@
         <h4>Company</h4>
         <a href="about.html">About Us</a>
         <a href="blog.html">Blog</a>
+        <a href="news.html">News</a>
         <a href="contact.html">Contact</a>
-        <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
       </div>
       <div class="footer-col">
         <h4>Legal</h4>
@@ -329,7 +303,7 @@
 <aside class="wishlist-sidebar" id="wishlistSidebar" aria-label="Wishlist">
   <div class="wishlist-sidebar-header">
     <h3>❤️ My Wishlist</h3>
-    <button class="wishlist-close" id="wishlistClose" aria-label="Close wishlist">✕</button>
+    <button class="wishlist-close" id="wishlistClose" aria-label="Close">✕</button>
   </div>
   <div class="wishlist-items" id="wishlistItems"></div>
 </aside>
@@ -349,55 +323,28 @@
 <script src="js/shared.js"></script>
 <script src="js/script.js"></script>
 <script>
-  // ── Video Banner Fix ─────────────────────────────────────
+  // Video banner autoplay
   (function() {
     var video = document.getElementById('heroBgVideo');
     var fallback = document.getElementById('heroBgFallback');
     if (!video) return;
-
-    // Принудительный запуск (нужен для некоторых браузеров)
     function tryPlay() {
-      var promise = video.play();
-      if (promise !== undefined) {
-        promise.then(function() {
-          // Видео играет — скрываем fallback
-          if (fallback) fallback.style.opacity = '0';
-        }).catch(function() {
-          // Autoplay заблокирован — оставляем poster/fallback
-          video.style.display = 'none';
-          if (fallback) fallback.style.opacity = '1';
-        });
+      var p = video.play();
+      if (p !== undefined) {
+        p.then(function() { if (fallback) fallback.style.opacity = '0'; })
+         .catch(function() { video.style.display='none'; if (fallback) fallback.style.opacity='1'; });
       }
     }
-
-    if (video.readyState >= 3) {
-      tryPlay();
-    } else {
+    if (video.readyState >= 3) { tryPlay(); }
+    else {
       video.addEventListener('canplay', tryPlay, { once: true });
-      // Таймаут: если видео не загрузилось за 4 сек — показываем fallback
       setTimeout(function() {
-        if (video.paused) {
-          video.style.display = 'none';
-          if (fallback) fallback.style.opacity = '1';
-        }
+        if (video.paused) { video.style.display='none'; if (fallback) fallback.style.opacity='1'; }
       }, 4000);
     }
-
-    // На мобильных некоторые браузеры требуют взаимодействия
-    document.addEventListener('touchstart', function() {
-      if (video.paused) tryPlay();
-    }, { once: true });
+    document.addEventListener('touchstart', function() { if (video.paused) tryPlay(); }, { once: true });
   })();
-
-  // ── Featured designs on homepage (random 8) ──────────────
-  document.addEventListener('DOMContentLoaded', function() {
-    var grid = document.getElementById('featuredGrid');
-    if (typeof PRODUCTS !== 'undefined' && grid) {
-      var featured = PRODUCTS.slice().sort(function(){ return 0.5 - Math.random(); }).slice(0, 8);
-      grid.innerHTML = featured.map(function(p){ return Shop.cardHTML(p); }).join('');
-    }
-  });
+  // Shop.initFeaturedGrid() is called automatically by script.js
 </script>
-
 </body>
 </html>

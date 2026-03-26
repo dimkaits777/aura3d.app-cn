@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Printing News — Latest Updates | AuraCrafts</title>
+  <meta name="description" content="Stay up to date with the latest 3D printing news, product launches, and industry developments. Automatically updated every 12 hours.">
+  <link rel="canonical" href="https://aura3d.app-cn.net/news.html">
+  <link rel="icon" href="images/logo.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-bg" style="background-image:url('images/bg-new.jpg')">
+
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <a href="index.html" class="nav-brand"><img src="images/logo.jpg" alt="AuraCrafts logo"><span>AuraCrafts</span></a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="shop.html">Designs</a></li>
+    <li><a href="printers.html">Printers</a></li>
+    <li><a href="jlcpcb.html">JLCPCB</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="news.html" class="active">News</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="nav-actions">
+    <button class="nav-icon-btn" id="searchBtn" aria-label="Search">🔍</button>
+    <button class="nav-icon-btn" id="wishlistBtn" aria-label="Wishlist">❤️ <span class="badge wishlist-badge">0</span></button>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="page-header">
+  <nav class="breadcrumb" aria-label="breadcrumb" style="justify-content:center">
+    <ol>
+      <li><a href="index.html">Home</a></li>
+      <li>News</li>
+    </ol>
+  </nav>
+  <h1>3D Printing News</h1>
+  <p>Latest updates from the world of 3D printing — auto-refreshed every 12 hours</p>
+</div>
+
+<main>
+  <section class="section" style="padding-top:1rem">
+    <div class="container">
+      <!--
+        data-limit="999" = показать все новости.
+        script.js читает этот атрибут.
+      -->
+      <div id="newsGrid" class="news-grid" data-limit="999">
+        <!-- Skeleton loaders пока идёт загрузка -->
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><img src="images/logo.jpg" alt="AuraCrafts"><span class="footer-brand-name">AuraCrafts</span></div>
+        <p class="footer-desc">Your one-stop hub for 3D printing designs, equipment, and custom manufacturing.</p>
+      </div>
+      <div class="footer-col"><h4>Shop</h4><a href="shop.html">3D Designs</a><a href="printers.html">3D Printers</a><a href="jlcpcb.html">Custom Parts</a></div>
+      <div class="footer-col"><h4>Company</h4><a href="about.html">About Us</a><a href="blog.html">Blog</a><a href="news.html">News</a><a href="contact.html">Contact</a></div>
+      <div class="footer-col"><h4>Legal</h4><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="affiliate-disclosure.html">Affiliate Disclosure</a></div>
+    </div>
+    <div class="footer-bottom"><p>© 2026 AuraCrafts. All rights reserved.</p></div>
+  </div>
+</footer>
+
+<aside class="wishlist-sidebar" id="wishlistSidebar"><div class="wishlist-sidebar-header"><h3>❤️ My Wishlist</h3><button class="wishlist-close" id="wishlistClose">✕</button></div><div class="wishlist-items" id="wishlistItems"></div></aside>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+<div class="search-modal" id="searchModal" role="dialog"><button class="search-modal-close" id="searchClose">✕</button><div class="search-modal-inner"><input type="search" id="searchInput" class="search-modal-input" placeholder="Search designs…" autocomplete="off"><div id="searchResults" class="search-results"></div></div></div>
+
+<script src="js/products.js"></script>
+<script src="js/shared.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

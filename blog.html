@@ -7,8 +7,6 @@
   <meta name="description" content="Expert 3D printing guides, printer reviews, filament comparisons, and design tips. Stay up to date with the AuraCrafts blog.">
   <meta name="awin-verification" content="YOUR_AWIN_ID">
   <link rel="canonical" href="https://aura3d.app-cn.net/blog.html">
-  <!-- Google Analytics placeholder --><!-- Insert Google Analytics Tag ID here -->
-  <!-- Pinterest Tag placeholder --><!-- Insert Pinterest Tag ID here -->
   <link rel="icon" href="images/logo.jpg" type="image/jpeg">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -22,6 +20,7 @@
     <li><a href="printers.html">Printers</a></li>
     <li><a href="jlcpcb.html">JLCPCB</a></li>
     <li><a href="blog.html" class="active">Blog</a></li>
+    <li><a href="news.html">News</a></li>
     <li><a href="about.html">About</a></li>
     <li><a href="contact.html">Contact</a></li>
   </ul>
@@ -33,7 +32,12 @@
 </nav>
 
 <div class="page-header">
-  <div class="breadcrumb" style="justify-content:center;display:flex;gap:.5rem"><a href="index.html" style="color:#F59E0B">Home</a> › <span>Blog</span></div>
+  <nav class="breadcrumb" aria-label="breadcrumb" style="justify-content:center">
+    <ol>
+      <li><a href="index.html">Home</a></li>
+      <li>Blog</li>
+    </ol>
+  </nav>
   <h1>3D Printing Blog</h1>
   <p>Tips, tutorials, printer reviews, and design inspiration for every skill level</p>
 </div>
@@ -42,12 +46,12 @@
   <section class="section" style="padding-top:1rem">
     <div class="container">
 
-      <!-- n8n integration comment: posts loaded from _posts/posts.json dynamically -->
-      <!-- TODO: When n8n automation is active, uncomment script.js loadLatestPosts call -->
-
+      <!--
+        JS populates #blogGrid from /_posts/posts.json.
+        Static placeholder cards below are shown until the first n8n publish.
+        Once script.js fetches real data, it REPLACES the inner HTML entirely.
+      -->
       <div id="blogGrid" class="blog-grid">
-
-        <!-- Placeholder Article 1 -->
         <a href="#" class="blog-card">
           <div class="blog-card-img" style="background-image:url('images/bg-4.jpg')"></div>
           <div class="blog-card-body">
@@ -57,8 +61,6 @@
             <div class="blog-read-more">Read more →</div>
           </div>
         </a>
-
-        <!-- Placeholder Article 2 -->
         <a href="#" class="blog-card">
           <div class="blog-card-img" style="background-image:url('images/bg-1.jpg')"></div>
           <div class="blog-card-body">
@@ -68,8 +70,6 @@
             <div class="blog-read-more">Read more →</div>
           </div>
         </a>
-
-        <!-- Placeholder Article 3 -->
         <a href="#" class="blog-card">
           <div class="blog-card-img" style="background-image:url('images/bg-2.jpg')"></div>
           <div class="blog-card-body">
@@ -79,8 +79,6 @@
             <div class="blog-read-more">Read more →</div>
           </div>
         </a>
-
-        <!-- Placeholder Article 4 -->
         <a href="#" class="blog-card">
           <div class="blog-card-img" style="background-image:url('images/bg-3.jpg')"></div>
           <div class="blog-card-body">
@@ -90,8 +88,6 @@
             <div class="blog-read-more">Read more →</div>
           </div>
         </a>
-
-        <!-- Placeholder Article 5 -->
         <a href="#" class="blog-card">
           <div class="blog-card-img" style="background-image:url('images/bg-4.jpg')"></div>
           <div class="blog-card-body">
@@ -101,8 +97,6 @@
             <div class="blog-read-more">Read more →</div>
           </div>
         </a>
-
-        <!-- Placeholder Article 6 -->
         <a href="#" class="blog-card">
           <div class="blog-card-img" style="background-image:url('images/bg-1.jpg')"></div>
           <div class="blog-card-body">
@@ -112,10 +106,9 @@
             <div class="blog-read-more">Read more →</div>
           </div>
         </a>
+      </div>
 
-      </div><!-- end blogGrid -->
-
-      <!-- Newsletter signup placeholder -->
+      <!-- Newsletter -->
       <div style="margin-top:4rem;background:linear-gradient(135deg,rgba(30,42,94,0.9),rgba(29,78,216,0.8));border-radius:20px;padding:3rem;text-align:center;border:1px solid rgba(59,130,246,0.3)">
         <h3 style="color:#fff;margin-bottom:1rem">📬 Get New Tutorials in Your Inbox</h3>
         <p style="color:rgba(255,255,255,.75);margin-bottom:1.5rem">Weekly 3D printing tips, new design alerts, and exclusive deals — no spam, ever.</p>
@@ -132,12 +125,16 @@
 <footer>
   <div class="container">
     <div class="footer-grid">
-      <div><div class="footer-brand"><img src="images/logo.jpg" alt="AuraCrafts"><span class="footer-brand-name">AuraCrafts</span></div><p class="footer-desc">Your one-stop hub for 3D printing designs, equipment, and custom manufacturing.</p></div>
+      <div>
+        <div class="footer-brand"><img src="images/logo.jpg" alt="AuraCrafts"><span class="footer-brand-name">AuraCrafts</span></div>
+        <p class="footer-desc">Your one-stop hub for 3D printing designs, equipment, and custom manufacturing.</p>
+      </div>
       <div class="footer-col"><h4>Shop</h4><a href="shop.html">3D Designs</a><a href="printers.html">3D Printers</a><a href="jlcpcb.html">Custom Parts</a></div>
-      <div class="footer-col"><h4>Company</h4><a href="about.html">About Us</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a></div>
+      <div class="footer-col"><h4>Company</h4><a href="about.html">About Us</a><a href="blog.html">Blog</a><a href="news.html">News</a><a href="contact.html">Contact</a></div>
       <div class="footer-col"><h4>Legal</h4><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="affiliate-disclosure.html">Affiliate Disclosure</a></div>
     </div>
     <div class="footer-bottom"><p>© 2026 AuraCrafts. All rights reserved.</p></div>
+    <p class="footer-disclosure"><strong>Affiliate Disclosure:</strong> AuraCrafts participates in affiliate programs including Creative Fabrica, Amazon Associates, Awin, and JLCPCB. <a href="affiliate-disclosure.html">Read full disclosure →</a></p>
   </div>
 </footer>
 
