@@ -53,6 +53,7 @@ button, input, select, textarea { font-family: inherit; }
   background-attachment: fixed;
   position: relative;
 }
+/* Overlay только за хедером страницы, не поверх контента */
 .page-bg::before {
   content: '';
   position: fixed;
@@ -62,6 +63,7 @@ button, input, select, textarea { font-family: inherit; }
   pointer-events: none;
 }
 .page-bg > * { position: relative; z-index: 1; }
+
 
 /* ── Typography ─────────────────────────────────────────── */
 h1,h2,h3,h4,h5 { font-family: var(--font-head); font-weight: 700; line-height: 1.2; }
@@ -1008,6 +1010,7 @@ footer {
    ============================================================ */
 
 /* ── Article Reading Container (LLM-generated pages) ─────── */
+/* z-index:10 + isolation:isolate — выходим из stacking context .page-bg::before */
 .article-container {
   background: #f8fafc;
   color: #1e293b;
@@ -1020,6 +1023,9 @@ footer {
   font-family: var(--font-body);
   font-size: 1.05rem;
   border: 1px solid rgba(59,130,246,0.1);
+  position: relative;
+  z-index: 10;
+  isolation: isolate;
 }
 
 /* — Headings inside article — */
