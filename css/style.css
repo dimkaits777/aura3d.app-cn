@@ -1329,3 +1329,45 @@ footer {
   .article-container { padding: 20px 16px; }
   .article-meta { gap: 0.75rem; }
 }
+
+/* ── Product category badge ─────────────────────────────── */
+.product-cat-badge {
+  display: inline-block;
+  background: rgba(59,130,246,0.12);
+  color: #93c5fd;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  border-radius: 50px;
+  margin-bottom: 0.5rem;
+  border: 1px solid rgba(59,130,246,0.2);
+}
+
+/* ── Article pages — disable dark overlay so text is readable ── */
+body.article-page { background: #0d1534; }
+body.article-page .page-bg::before { display: none; }
+
+/* ── NUCLEAR FIX: article-container breaks out of ANY overlay ── */
+.article-container {
+  position: relative !important;
+  z-index: 9999 !important;
+  isolation: isolate !important;
+  background: #ffffff !important;
+  color: #1e293b !important;
+}
+.article-container * {
+  color: inherit;
+}
+.article-container h1,
+.article-container h2,
+.article-container h3 {
+  color: #0f172a !important;
+}
+.article-container p,
+.article-container li {
+  color: #374151 !important;
+}
+.article-container strong { color: #0f172a !important; }
+.article-container a { color: #1d4ed8 !important; }
