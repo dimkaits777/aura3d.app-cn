@@ -1,9 +1,9 @@
 [
   {
-    "title": "Optimizing Nozzle Temperature for Consistent ABS Printing Results",
-    "slug": "2026-03-29-optimizing-nozzle-temperature-abs-printing",
-    "date": "2026-03-29",
-    "excerpt": "Achieving consistent ABS prints requires optimizing nozzle temperature, with critical factors like heat transition and proper fan settings.",
-    "url": "/articles/2026-03-29-optimizing-nozzle-temperature-abs-printing.html"
+    "title": "Optimizing Print Speed for ABS and PLA Materials",
+    "slug": "2026-03-30-optimizing-print-speed-abs-pla",
+    "date": "2026-03-30",
+    "excerpt": "This article discusses how to optimize print speed for ABS and PLA materials on an Ender 3 V2 printer, covering layer height, speed, temperature, and filament quality.",
+    "url": "/articles/2026-03-30-optimizing-print-speed-abs-pla.html"
   }
 ]
