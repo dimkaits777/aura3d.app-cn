@@ -1,9 +1,9 @@
 [
   {
-    "title": "Optimizing Z-Axis Calibration for the Ender 3 V2 Printer",
-    "slug": "2026-04-01-ender-3-v2-z-axis-calibration",
-    "date": "2026-04-01",
-    "excerpt": "Optimize Z-axis calibration for the Ender 3 V2 printer using microstepping settings for precise layer heights.",
-    "url": "/articles/2026-04-01-ender-3-v2-z-axis-calibration.html"
+    "title": "Optimizing FDM Printing with Slicing Algorithms",
+    "slug": "2026-04-02-optimizing-fdm-printing-slicing-algorithms",
+    "date": "2026-04-02",
+    "excerpt": "Advanced slicing algorithms help professional FDM printers reduce filament waste and save costs by predicting print quality and optimizing usage.",
+    "url": "/articles/2026-04-02-optimizing-fdm-printing-slicing-algorithms.html"
   }
 ]
