@@ -1,9 +1,9 @@
 [
   {
-    "title": "Optimizing FlashForge Creator Pro Printer Settings for Resin-Based 3D Printing",
-    "slug": "2026-04-04-optimizing-flashforge-creator-pro",
-    "date": "2026-04-04",
-    "excerpt": "Optimize FlashForge Creator Pro settings for resin 3D printing with filament, diameter, speed, temperature, post-processing, and layer height adjustments.",
-    "url": "/articles/2026-04-04-optimizing-flashforge-creator-pro.html"
+    "title": "Optimizing Print Speed for ABS+ PLA Dual-Material Prints on the ReprapModded MEGA",
+    "slug": "2026-04-05-optimizing-print-speed-abs-pla-dual-material-prints",
+    "date": "2026-04-05",
+    "excerpt": "Discussing best practices for optimizing print speed for ABS+ PLA dual-material prints on the ReprapModded MEGA, including speed adjustments, temperature management, and infill density.",
+    "url": "/articles/2026-04-05-optimizing-print-speed-abs-pla-dual-material-prints.html"
   }
 ]
