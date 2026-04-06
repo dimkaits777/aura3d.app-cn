@@ -1,9 +1,9 @@
 [
   {
-    "title": "Optimizing Print Speed for ABS+ PLA Dual-Material Prints on the ReprapModded MEGA",
-    "slug": "2026-04-05-optimizing-print-speed-abs-pla-dual-material-prints",
-    "date": "2026-04-05",
-    "excerpt": "Discussing best practices for optimizing print speed for ABS+ PLA dual-material prints on the ReprapModded MEGA, including speed adjustments, temperature management, and infill density.",
-    "url": "/articles/2026-04-05-optimizing-print-speed-abs-pla-dual-material-prints.html"
+    "title": "Optimizing Print Quality with E3D V6 Hotend",
+    "slug": "2026-04-06-optimizing-print-quality-e3d-v6-hotend",
+    "date": "2026-04-06",
+    "excerpt": "Enhance your RepRap FabMin 2.0 prints with the E3D V6 hotend, improving heat resistance, and ensuring smoother, more uniform results.",
+    "url": "/articles/2026-04-06-optimizing-print-quality-e3d-v6-hotend.html"
   }
 ]
