@@ -1,9 +1,9 @@
 [
   {
-    "title": "Optimizing Bed Adhesion for ABS Printing",
-    "slug": "2026-04-10-optimizing-bed-adhesion-abs-printing",
-    "date": "2026-04-10",
-    "excerpt": "This article discusses strategies to improve bed adhesion for successful ABS 3D printing projects, including using a heated bed, adhesive, proper print orientation, and support structures.",
-    "url": "/articles/2026-04-10-optimizing-bed-adhesion-abs-printing.html"
+    "title": "Optimizing Layer Height for Durable ABS Prints",
+    "slug": "2026-04-11-optimizing-layer-height-ender-3-v2",
+    "date": "2026-04-11",
+    "excerpt": "This article explores how layer height impacts ABS prints on the Ender 3 V2, discussing benefits of lower and higher layer heights, and tips for achieving durable prints.",
+    "url": "/articles/2026-04-11-optimizing-layer-height-ender-3-v2.html"
   }
 ]
