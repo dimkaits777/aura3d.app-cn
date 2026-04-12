@@ -1,9 +1,9 @@
 [
   {
-    "title": "Optimizing Layer Height for Durable ABS Prints",
-    "slug": "2026-04-11-optimizing-layer-height-ender-3-v2",
-    "date": "2026-04-11",
-    "excerpt": "This article explores how layer height impacts ABS prints on the Ender 3 V2, discussing benefits of lower and higher layer heights, and tips for achieving durable prints.",
-    "url": "/articles/2026-04-11-optimizing-layer-height-ender-3-v2.html"
+    "title": "Optimizing Metal Filament Settings",
+    "slug": "2026-04-12-optimizing-metal-filament-settings",
+    "date": "2026-04-12",
+    "excerpt": "This article explains how to optimize temperature settings for metal infill prints on the Ender 3 V2, including recommended temperature ranges and post-processing steps.",
+    "url": "/articles/2026-04-12-optimizing-metal-filament-settings.html"
   }
 ]
