@@ -1,9 +1,9 @@
 [
   {
-    "title": "Optimizing Metal Filament Settings",
-    "slug": "2026-04-12-optimizing-metal-filament-settings",
-    "date": "2026-04-12",
-    "excerpt": "This article explains how to optimize temperature settings for metal infill prints on the Ender 3 V2, including recommended temperature ranges and post-processing steps.",
-    "url": "/articles/2026-04-12-optimizing-metal-filament-settings.html"
+    "title": "Optimizing Print Speeds for ABS+ Material on Ender 3 V2 Printers",
+    "slug": "2026-04-13-optimizing-print-speeds-abs-material-ender-3-v2",
+    "date": "2026-04-13",
+    "excerpt": "This article explores how to optimize print speeds for ABS+ material on an Ender 3 V2 printer, covering speed settings, fan usage, layer height, and other adjustments.",
+    "url": "/articles/2026-04-13-optimizing-print-speeds-abs-material-ender-3-v2.html"
   }
 ]
