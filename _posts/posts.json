@@ -1,9 +1,9 @@
 [
   {
-    "title": "Optimizing Print Speeds for ABS+ Material on Ender 3 V2 Printers",
-    "slug": "2026-04-13-optimizing-print-speeds-abs-material-ender-3-v2",
-    "date": "2026-04-13",
-    "excerpt": "This article explores how to optimize print speeds for ABS+ material on an Ender 3 V2 printer, covering speed settings, fan usage, layer height, and other adjustments.",
-    "url": "/articles/2026-04-13-optimizing-print-speeds-abs-material-ender-3-v2.html"
+    "title": "Optimizing Print Success Rates",
+    "slug": "2026-04-14-optimizing-print-success-rates",
+    "date": "2026-04-14",
+    "excerpt": "This article explores how the E3D V6 hotend can enhance print success rates on Ultimaker 2+ printers by improving bed adhesion, adjusting settings, and using recommended materials.",
+    "url": "/articles/2026-04-14-optimizing-print-success-rates.html"
   }
 ]
