@@ -1,9 +1,9 @@
 [
   {
-    "title": "Optimizing Print Speed and Layer Height for Durable ABS Prints on Ender 3 V2",
-    "slug": "2026-04-15-optimizing-print-speed-and-layer-height-for-durable-abs-prints-on-ender-3-v2",
-    "date": "2026-04-15",
-    "excerpt": "This article discusses how to optimize print speed and layer height for durable ABS prints on the Ender 3 V2, including tips for ABS filament characteristics and printer features.",
-    "url": "/articles/2026-04-15-optimizing-print-speed-and-layer-height-for-durable-abs-prints-on-ender-3-v2.html"
+    "title": "Optimizing Layer Height for Metal Filament Printing with the E3D V6 Nozzle",
+    "slug": "2026-04-16-optimizing-layer-height-for-metal-filament-printing",
+    "date": "2026-04-16",
+    "excerpt": "Explore the importance of layer height optimization for metal filament prints with the E3D V6 nozzle, including best practices and materials considerations.",
+    "url": "/articles/2026-04-16-optimizing-layer-height-for-metal-filament-printing.html"
   }
 ]
