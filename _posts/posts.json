@@ -1,9 +1,9 @@
 [
   {
-    "title": "Optimizing Print Speed and Layer Height for Durable ABS Prints on Ender 3 V2",
-    "slug": "2026-04-18-ender-3-v2-abs-optimization",
-    "date": "2026-04-18",
-    "excerpt": "Learn how to optimize print speed and layer height for durable ABS prints on the Ender 3 V2, including layer height range and print speed recommendations.",
-    "url": "/articles/2026-04-18-ender-3-v2-abs-optimization.html"
+    "title": "Optimizing Print Speed and Temperature for Durable ABS Plastic with the Ender 3 V2",
+    "slug": "2026-04-19-optimizing-abs-printing-for-ender-3-v2",
+    "date": "2026-04-19",
+    "excerpt": "To achieve durable ABS prints on the Ender 3 V2, adjust temperature and speed, manage cooling, use proper bed adhesion techniques, and optimize slicing settings.",
+    "url": "/articles/2026-04-19-optimizing-abs-printing-for-ender-3-v2.html"
   }
 ]
