@@ -1,9 +1,9 @@
 [
   {
-    "title": "Optimizing Print Quality with E3D V6 Hotend",
-    "slug": "2026-04-20-optimizing-print-quality-e3d-v6-hotend",
-    "date": "2026-04-20",
-    "excerpt": "Learn how to optimize print quality with the E3D V6 hotend using Ultimaker Cura slicer settings, including temperature, nozzle size, layer height, flow rate, and speed adjustments.",
-    "url": "/articles/2026-04-20-optimizing-print-quality-e3d-v6-hotend.html"
+    "title": "Optimizing Print Speed and Temperature for Nylon 3D Printing",
+    "slug": "2026-04-21-optimizing-print-speed-and-temperature-for-nylon-3d-printing",
+    "date": "2026-04-21",
+    "excerpt": "Learn how to optimize print speed and temperature for durable nylon 3D prints, including temperature ranges, balance between speed and temperature, and post-processing.",
+    "url": "/articles/2026-04-21-optimizing-print-speed-and-temperature-for-nylon-3d-printing.html"
   }
 ]
