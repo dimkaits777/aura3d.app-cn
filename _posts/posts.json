@@ -1,9 +1,9 @@
 [
   {
-    "title": "Optimizing ESR Settings for RepRap Fabmini V4",
-    "slug": "2026-04-22-esr-settings-for-reprap-fabmini-v4",
-    "date": "2026-04-22",
-    "excerpt": "Optimizing ESR settings for your RepRap Fabmini V4 printer can improve performance in terms of speed, layer height, and print quality.",
-    "url": "/articles/2026-04-22-esr-settings-for-reprap-fabmini-v4.html"
+    "title": "Optimizing Print Speed and Temperature",
+    "slug": "2026-04-23-optimizing-print-speed-and-temperature",
+    "date": "2026-04-23",
+    "excerpt": "This article discusses key factors for optimizing print speed and temperature settings on a dual-extrusion ABS+ PLA printer, including temperature settings, print speed adjustments, and fan usage.",
+    "url": "/articles/2026-04-23-optimizing-print-speed-and-temperature.html"
   }
 ]
