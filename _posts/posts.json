@@ -1,9 +1,9 @@
 [
   {
-    "title": "Optimizing Print Speed and Temperature",
-    "slug": "2026-04-23-optimizing-print-speed-and-temperature",
-    "date": "2026-04-23",
-    "excerpt": "This article discusses key factors for optimizing print speed and temperature settings on a dual-extrusion ABS+ PLA printer, including temperature settings, print speed adjustments, and fan usage.",
-    "url": "/articles/2026-04-23-optimizing-print-speed-and-temperature.html"
+    "title": "Optimizing Print Speeds for Metal-Inspired ABS Prints Using Ultimaker C8",
+    "slug": "2026-04-24-optimizing-print-speeds-metal-inspired-abs",
+    "date": "2026-04-24",
+    "excerpt": "Explore techniques to improve print speeds for metal-inspired ABS on the Ultimaker C8, including adjusting temperature, fan speed, and bed temperature.",
+    "url": "/articles/2026-04-24-optimizing-print-speeds-metal-inspired-abs.html"
   }
 ]
