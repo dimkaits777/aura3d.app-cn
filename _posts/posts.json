@@ -1,9 +1,9 @@
 [
   {
-    "title": "Optimizing Print Speed and Temperature for ABS Plastic on Ender 3 V2",
-    "slug": "2026-04-25-ender-3-v2-abs-printing-guide",
-    "date": "2026-04-25",
-    "excerpt": "A guide for Ender 3 V2 3D printer users to optimize print speed and temperature for ABS plastic, improving quality and efficiency.",
-    "url": "/articles/2026-04-25-ender-3-v2-abs-printing-guide.html"
+    "title": "Optimizing Print Bed Adhesion",
+    "slug": "2026-04-26-prusa-i3-mk3s-print-bed-adhesion",
+    "date": "2026-04-26",
+    "excerpt": "Guide on using micro-silica powder mix to improve print bed adhesion for Prusa i3 MK3S printers, with tips on mixing, application, and troubleshooting.",
+    "url": "/articles/2026-04-26-prusa-i3-mk3s-print-bed-adhesion.html"
   }
 ]
