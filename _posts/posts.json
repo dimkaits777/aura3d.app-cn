@@ -1,9 +1,9 @@
 [
   {
-    "title": "Optimizing Print Bed Adhesion",
-    "slug": "2026-04-26-prusa-i3-mk3s-print-bed-adhesion",
-    "date": "2026-04-26",
-    "excerpt": "Guide on using micro-silica powder mix to improve print bed adhesion for Prusa i3 MK3S printers, with tips on mixing, application, and troubleshooting.",
-    "url": "/articles/2026-04-26-prusa-i3-mk3s-print-bed-adhesion.html"
+    "title": "Optimizing Layer Height for ABS Printing",
+    "slug": "2026-04-27-optimizing-layer-height-abs-printing",
+    "date": "2026-04-27",
+    "excerpt": "Learn how adjusting layer height can enhance the strength and durability of ABS prints on a RepRap Fab Mini printer.",
+    "url": "/articles/2026-04-27-optimizing-layer-height-abs-printing.html"
   }
 ]
