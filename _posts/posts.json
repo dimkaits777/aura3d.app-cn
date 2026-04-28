@@ -1,9 +1,9 @@
 [
   {
-    "title": "Optimizing Layer Height for ABS Printing",
-    "slug": "2026-04-27-optimizing-layer-height-abs-printing",
-    "date": "2026-04-27",
-    "excerpt": "Learn how adjusting layer height can enhance the strength and durability of ABS prints on a RepRap Fab Mini printer.",
-    "url": "/articles/2026-04-27-optimizing-layer-height-abs-printing.html"
+    "title": "Optimizing Print Time with AI-Powered Slicer Settings for Metal Alloy Prints",
+    "slug": "2026-04-28-ai-powered-slicer-settings-metal-alloy",
+    "date": "2026-04-28",
+    "excerpt": "AI-powered slicer settings optimize metal alloy print times by adjusting layer heights, speeds, infill density, and temperature, enhancing quality and reducing post-processing.",
+    "url": "/articles/2026-04-28-ai-powered-slicer-settings-metal-alloy.html"
   }
 ]
