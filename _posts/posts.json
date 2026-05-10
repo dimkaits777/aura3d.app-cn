@@ -1,9 +1,9 @@
 [
   {
-    "title": "Optimizing Metal Alloy Prints",
-    "slug": "2026-05-09-optimizing-metal-alloy-printing",
-    "date": "2026-05-09",
-    "excerpt": "This article discusses how to optimize printing speed and layer height for metal alloy prints on an E3D V6 nozzle, including layer height, printing speed, temperature, filament type, and support structures.",
-    "url": "/articles/2026-05-09-optimizing-metal-alloy-printing.html"
+    "title": "Optimizing ABS Prints on Formlabs Form 3",
+    "slug": "2026-05-10-optimizing-abs-prints-formlabs-form-3",
+    "date": "2026-05-10",
+    "excerpt": "Learn how adjusting printing speed and temperature for ABS on the Formlabs Form 3 can improve print quality and efficiency.",
+    "url": "/articles/2026-05-10-optimizing-abs-prints-formlabs-form-3.html"
   }
 ]
