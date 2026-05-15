@@ -1,9 +1,9 @@
 [
   {
-    "title": "Optimizing Layer Height for Metal Powder Bed Fusion (MPBF) 3D Printing",
-    "slug": "2026-05-14-optimize-layer-height-mpbf-3d-printing",
-    "date": "2026-05-14",
-    "excerpt": "Learn how to optimize layer height for metal powder bed fusion 3D printing to achieve better print quality, speed, and cost.",
-    "url": "/articles/2026-05-14-optimize-layer-height-mpbf-3d-printing.html"
+    "title": "Optimizing Layer Height for Metal Printing",
+    "slug": "2026-05-15-optimizing-layer-height-metal-printing",
+    "date": "2026-05-15",
+    "excerpt": "Learn how adjusting layer height affects the quality and strength of metal prints using the E3D V6 extruder, including considerations for different metals, cooling systems, and adhesion.",
+    "url": "/articles/2026-05-15-optimizing-layer-height-metal-printing.html"
   }
 ]
