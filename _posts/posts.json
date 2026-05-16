@@ -1,9 +1,9 @@
 [
   {
-    "title": "Optimizing Layer Height for Metal Printing",
-    "slug": "2026-05-15-optimizing-layer-height-metal-printing",
-    "date": "2026-05-15",
-    "excerpt": "Learn how adjusting layer height affects the quality and strength of metal prints using the E3D V6 extruder, including considerations for different metals, cooling systems, and adhesion.",
-    "url": "/articles/2026-05-15-optimizing-layer-height-metal-printing.html"
+    "title": "Optimizing Print Speed and Temperature for ABS with the Ender 3 V2 Printer",
+    "slug": "2026-05-16-ender-3-v2-abs-optimization",
+    "date": "2026-05-16",
+    "excerpt": "Optimize print speed and temperature for ABS on the Ender 3 V2 printer to achieve better prints, including tips for speed, temperature control, and post-processing.",
+    "url": "/articles/2026-05-16-ender-3-v2-abs-optimization.html"
   }
 ]
