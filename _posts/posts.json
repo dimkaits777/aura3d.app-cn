@@ -1,9 +1,9 @@
 [
   {
-    "title": "Optimizing Print Speed and Temperature for ABS with the Ender 3 V2 Printer",
-    "slug": "2026-05-16-ender-3-v2-abs-optimization",
-    "date": "2026-05-16",
-    "excerpt": "Optimize print speed and temperature for ABS on the Ender 3 V2 printer to achieve better prints, including tips for speed, temperature control, and post-processing.",
-    "url": "/articles/2026-05-16-ender-3-v2-abs-optimization.html"
+    "title": "Optimizing Print Speed for ABS+ PLA Dual-Material Prints",
+    "slug": "2026-05-17-optimizing-print-speed-abs-pla",
+    "date": "2026-05-17",
+    "excerpt": "This article explores how to optimize print speed for ABS and PLA dual-material prints on an E3D V6 printer, focusing on extruder settings, print speed, cooling, and filament management.",
+    "url": "/articles/2026-05-17-optimizing-print-speed-abs-pla.html"
   }
 ]
